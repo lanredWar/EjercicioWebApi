@@ -467,11 +467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dra_l\\Platzi\\WebApiC#\\WebApiC#.csproj",
+      "projectUniqueName": "C:\\Users\\dra_l\\Platzi\\EjercicioWebApi\\WebApiC#\\WebApiC#.csproj",
       "projectName": "WebApiC#",
-      "projectPath": "C:\\Users\\dra_l\\Platzi\\WebApiC#\\WebApiC#.csproj",
+      "projectPath": "C:\\Users\\dra_l\\Platzi\\EjercicioWebApi\\WebApiC#\\WebApiC#.csproj",
       "packagesPath": "C:\\Users\\dra_l\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dra_l\\Platzi\\WebApiC#\\obj\\",
+      "outputPath": "C:\\Users\\dra_l\\Platzi\\EjercicioWebApi\\WebApiC#\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
