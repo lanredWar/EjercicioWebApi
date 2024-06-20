@@ -46,6 +46,10 @@ public class WeatherForecastController : ControllerBase
     [HttpDelete("{index}")]
     public IActionResult Delete(int index)
     {
+        if (ListWeatherForecast.Count < index)
+        {
+            return BadRequest("El Id esta fuera del alcance");
+        }
         ListWeatherForecast.RemoveAt(index);
         return Ok();
     }
