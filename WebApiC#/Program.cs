@@ -18,7 +18,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseWelcomePage();
+//app.UseWelcomePage();
+
+app.UseTimeMiddleware();
 
 app.UseAuthorization();
 
