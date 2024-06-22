@@ -15,6 +15,8 @@ public class TimeMiddleware
     }
     
 }
+
+//Invocacion de la api http://localhost:####?time
 public static class TimeMiddlewareExtension
     {
         public static IApplicationBuilder UseTimeMiddleware(this IApplicationBuilder builder)

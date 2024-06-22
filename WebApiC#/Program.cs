@@ -7,6 +7,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Platzi - Clase Inyeccion de dependencias - Inyeccion de dependencia mediante AddScoped
+//Cada que se inyecte la interfaz se creara un nuevo objeto de la clase
+builder.Services.AddScoped<IHelloWorldService, HelloWorldService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -20,7 +24,7 @@ app.UseHttpsRedirection();
 
 //app.UseWelcomePage();
 
-app.UseTimeMiddleware();
+//app.UseTimeMiddleware();
 
 app.UseAuthorization();
 
