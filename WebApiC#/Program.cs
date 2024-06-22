@@ -9,7 +9,10 @@ builder.Services.AddSwaggerGen();
 
 //Platzi - Clase Inyeccion de dependencias - Inyeccion de dependencia mediante AddScoped
 //Cada que se inyecte la interfaz se creara un nuevo objeto de la clase
-builder.Services.AddScoped<IHelloWorldService, HelloWorldService>();
+//builder.Services.AddScoped<IHelloWorldService, HelloWorldService>();
+
+//Inyeccion de dependencias directamente sobre una clase
+builder.Services.AddScoped<IHelloWorldService>(p=> new HelloWorldService());
 
 var app = builder.Build();
 
